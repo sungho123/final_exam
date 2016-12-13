@@ -31,25 +31,26 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         Employee employee;
 
-        switch (v.getId()){
+        switch (v.getId()){ //사람들의 받은 연봉정보를 올리고 내리고 저장하고 수정한다.
             case R.id.btn_inc:
-                // need something here
+                edit_salary++;
+
                 break;
 
             case R.id.btn_dec:
-                // need something here
+                edit_salary--;
                 break;
 
             case R.id.btn_store:
-                // need something here
+                // 저장
                 break;
 
             case R.id.btn_modify:
-                // need something here
+            //수정
                 break;
 
             case R.id.btn_delete:
-                // need something here
+            //삭제
                 break;
         }
     }

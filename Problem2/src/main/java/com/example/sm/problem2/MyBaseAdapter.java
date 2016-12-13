@@ -66,6 +66,6 @@ public class MyBaseAdapter extends BaseAdapter implements AdapterView.OnItemClic
 
     @Override
     public View getView(int position, View convertView, ViewGroup parent) {
-        // need something here
+            // 리스트를 보이게 한다.
     }
 }

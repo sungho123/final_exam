@@ -30,7 +30,12 @@ public class MainActivity extends AppCompatActivity {
         for(CustomerThread ct : list){
 
             try {
-                // need something here
+
+                for(int i=1;i<list.size();i++) {
+                     // 각각의 소비자가 열번 씩 소비한다.
+                    }
+
+                }
             } catch (InterruptedException e) { }
         }
 
@@ -70,7 +75,7 @@ class Customer extends Person{
         this.name = name;
     }
 
-    // need something here
+
 }
 
 
@@ -83,7 +88,7 @@ class Manager extends Person{
 
     void sort(){ // 직접 소팅 알고리즘을 이용하여 코딩해야함. 자바 기본 정렬 메소드 이용시 감
 
-        // need something here
+
 
     }
 
@@ -91,6 +96,8 @@ class Manager extends Person{
     void work() {
         sort();
     }
+
+        Collections.sort();         // 가장 많이 한 소비순으로 sort 함
 }
 
 // need something here
